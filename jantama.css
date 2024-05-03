@@ -2,10 +2,13 @@
 
 @import url('https://fonts.googleapis.com/css2?family=DotGothic16&display=swap');
 
+html {
+    width: 100vw;    
+}
+
 body {
     margin: 0;
     font-family: "DotGothic16", sans-serif;
-    width: 100%;
 }
 
 #page_top_button {
