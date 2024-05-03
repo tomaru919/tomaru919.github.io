@@ -90,18 +90,18 @@ function makeRandNum() {
     const randNum = Math.floor(Math.random() * 100);
     if (randNum >= 95) {
         const charNum = Math.floor(Math.random() * 34);
-        return {list: charList, num: charNum, url: `img/char(${charNum}).png`};
+        return {list: charList, num: charNum, url: `charImg/char(${charNum}).png`};
     } else if (randNum >= 80) {
         const itemNum = Math.floor(Math.random() * 67);
-        return {list: itemList, num: itemNum, url: `img/item(${itemNum}).png`};
+        return {list: itemList, num: itemNum, url: `itemImg/item(${itemNum}).png`};
     }
     const randNum1 = Math.floor(Math.random() * 10000);
     if (randNum1 >= 9375) {
         const rareMaterialNum = Math.floor(Math.random() * 8);
-        return {list: rareMaterialList, num: rareMaterialNum, url: `img/rare_material(${rareMaterialNum}).png`};
+        return {list: rareMaterialList, num: rareMaterialNum, url: `rare_materialImg/rare_material(${rareMaterialNum}).png`};
     }
     const materialNum = Math.floor(Math.random() * 8);
-    return {list: materialList, num: materialNum, url: `img/material(${materialNum}).png`};
+    return {list: materialList, num: materialNum, url: `materialImg/material(${materialNum}).png`};
 }
 
 function confirmationHaving() {
