@@ -83,6 +83,8 @@ async function clickButton() {
     }
     await tenRoll();
     rollNumH1.innerText = `ガチャ回数: ${rollNum}回`;
+    wishStone.innerText = `願いの石: ${wishStoneNum}個`;
+    starStone.innerText = `星の石: ${starStoneNum}個`;
     confirmationHaving();
 }
 
@@ -157,12 +159,10 @@ function gachaResult({ img, h2 }) {
             img.src = "img/wishStone.png";
             h2.innerText = "願いの石";
             wishStoneNum++;
-            wishStone.innerText = `願いの石: ${wishStoneNum}個`;
         } else {
             img.src = "img/starStone.png";
             h2.innerText = "星の石";
             starStoneNum++;
-            starStone.innerText = `星の石: ${starStoneNum}個`;
         }
     } else {
         if (list === charList || list === itemList) {
