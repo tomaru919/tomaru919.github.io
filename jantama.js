@@ -52,9 +52,9 @@ function makeTable(table, list) {
         havingImg.classList.add(`${table.id}Img`, "notHaving");
         havingName.classList.add("tableSpan");
         if (list === charList) {
-            havingImg.src = `img/char(${i}).png`;
+            havingImg.src = `charImg/char(${i}).png`;
         } else {
-            havingImg.src = `img/item(${i}).png`;
+            havingImg.src = `itemImg/item(${i}).png`;
         }
         havingName.innerText = list[i].name;
         havingDiv.append(havingImg);
