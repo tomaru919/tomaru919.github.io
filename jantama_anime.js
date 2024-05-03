@@ -1,6 +1,6 @@
 const paiTyun = document.querySelector(".pai_tyun");
 const paiHatu = document.querySelector(".pai_hatu");
-const paiHaku =document.querySelector(".pai_haku");
+const paiHaku = document.querySelector(".pai_haku");
 
 function makeDot(dotDiv) {
     for (let i = 0; i < 264 ; i++) {
