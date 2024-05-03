@@ -1,0 +1,29 @@
+.pai_tyun, .pai_hatu, .pai_haku {
+    display: flex;
+    flex-wrap: wrap;
+    width: 60px;
+    height: 110px;
+}
+
+.dot_pai_tyun, .dot_pai_hatu, .dot_pai_haku {
+    width: 5px;
+    height: 5px;
+}
+
+.black {
+    background-color: black;
+}
+
+.red {
+    background-color: #a32634;
+}
+
+.green {
+    background-color: #64a834;
+}
+
+.pai_div {
+    display: flex;
+    width: 180px;
+    margin: 10px auto;
+}
